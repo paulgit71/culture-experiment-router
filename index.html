@@ -131,8 +131,8 @@
   <div class="wrap">
     <main class="card" role="main" aria-labelledby="appTitle">
       <header class="card__header">
-        <h1 id="appTitle" class="title">Europe Experiment Router</h1>
-        <p class="subtitle">Experiment Randomizer</p>
+        <h1 id="appTitle" class="title">Experiment Router</h1>
+        <p class="subtitle"></p>
       </header>
 
       <section class="card__body">
@@ -143,7 +143,7 @@
               <label for="mturkId">Step 1 — Enter your MTurk ID</label>
               <input id="mturkId" class="input" type="text" placeholder="e.g., A123BCD4567" autocomplete="off" />
               <div class="notice" style="margin-top:0.75rem;">
-                <strong>Participate only once.</strong> Any duplicate ID will not receive any form of payment.
+                <strong>Please participate only once.</strong> Any duplicate ID will not receive any form of payment.
               </div>
             </div>
             <div>
@@ -214,7 +214,6 @@
               <div class="success">
                 By continuing, I confirm that I am eligible to participate and consent to proceed to the experiment routing step.
               </div>
-              <p class="hint">Your MTurk ID and country are passed to the study host for validation; nothing is stored on this page.</p>
             </div>
           </div>
 
@@ -247,7 +246,7 @@
         <div id="stageIneligible" class="stage" aria-live="polite">
           <div class="notice">
             <strong>I'm sorry, you cannot participate in this experiment.</strong>
-            <div class="hint" style="margin-top:0.5rem;">Your selected country is not part of the eligible regions for this study.</div>
+            <div class="hint" style="margin-top:0.5rem;">Your selected country is not part of the eligible regions for this study. Thank you for yout time</div>
           </div>
           <div style="margin-top:0.75rem;"><button class="button button--muted" type="button" id="restartBtn">Start over</button></div>
         </div>
